@@ -4,7 +4,6 @@ contract Mapps {
 
 mapping (uint=> string) private Names;
 
-//for(uint i=0 ; i< 5; i++ ){
  function setValue (uint _key, string memory _name) public {
     Names[_key] = _name;
 } 
