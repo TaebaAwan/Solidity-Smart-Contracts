@@ -33,5 +33,3 @@ function withdraw(address to) public {
  }
 }
 
-//keep tract of all the times an address mints tokens
-//transfer lockedTokens to msg.sender
